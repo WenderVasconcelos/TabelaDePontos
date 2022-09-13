@@ -1,0 +1,104 @@
+* {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://images2.alphacoders.com/805/805172.jpg");
+    background: rgba(red, green, blue, 0.5);
+    background-color: #000;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+#botoes {
+    display: inside;
+    width: auto;
+    height: 50px;
+    padding: auto;
+
+}
+
+#botoes input {
+    align-items: center;
+    padding: 3px;
+    margin: auto;
+    height: 30px;
+    font-family: helvetica;
+    font-size: large;
+    color: #fff;
+    border: #fff solid 2px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#botoes input::placeholder {
+    color: #fff;
+}
+
+button {
+    padding: 5px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    cursor: ponter;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+#botoes {
+    padding: 30px;
+}
+
+#botoes button {
+    padding: 8px;
+    height: 40px;
+    width: auto;
+    font-family: helvetica;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: #fff solid 2px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#botoes button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+h1 {
+    padding: 30px;
+    color: white;
+}
+
+table {
+    padding-top: 20px;
+    border: 5px solid white;
+    border-collapse: collapse;
+    width: 100%
+}
+
+th,
+tr,
+td {
+    border: solid 2px white;
+    color: white;
+}
